@@ -1,12 +1,10 @@
 import os
 os.system('cls')
 
-
-#Entrada de dados
+#Entrada de ddos
 nome = input("Digite seu nome: ")
 genero = input("Digite seu Gênero: F para Feminino | M para Masculino ").upper()
 estado_civil = input("Digite seu estado civil: S para Solteiro(a) | C para Casado(a) ").upper()
-
 
 #processamento
 match genero:
